@@ -1,0 +1,54 @@
+{
+    "myntra": [
+        {
+            "name": "Ribbed Tank Crop Top",
+            "price": "\u20b9239",
+            "rating": "4.2\n|\n895 Ratings",
+            "url": "https://www.myntra.com/tops/baesd/baesd-ribbed-tank-crop-top/24115434/buy"
+        },
+        {
+            "name": "Wide Leg Jeans",
+            "price": "\u20b9736",
+            "rating": "4.4\n|\n21 Ratings",
+            "url": "https://www.myntra.com/jeans/aadvi+fashion/aadvi-fashion-women-original-high-rise-stretchable-wide-leg-jeans/32481893/buy"
+        },
+        {
+            "name": "Maxi Skirt",
+            "price": "\u20b9869",
+            "rating": "3.8\n|\n69 Ratings",
+            "url": "https://www.myntra.com/skirts/neudis/neudis-pure-cotton-flared-maxi-skirts/30198724/buy"
+        },
+        {
+            "name": "Kurta Set",
+            "price": "N/A",
+            "rating": "N/A",
+            "url": "https://www.myntra.com/kurta-sets/krati+creations/krati-creations-floral-printed-band-collar-a-line-kurta-with-palazzos/30409643/buy"
+        }
+    ],
+    "meesho": [
+        {
+            "name": "Tusi Tank Top Combo",
+            "price": "\u20b9118",
+            "rating": "N/A",
+            "url": "https://www.meesho.com/tusi-tank-top-combo-black-white-01/p/8cf9tj"
+        },
+        {
+            "name": "Ice Blue Denim Wide Leg Jeans",
+            "price": "\u20b9598",
+            "rating": "N/A",
+            "url": "https://www.meesho.com/ice-blue-denim-wide-leg-denim-jeans/p/6fuaar"
+        },
+        {
+            "name": "Trendy Letest Woman Skirt",
+            "price": "\u20b9267",
+            "rating": "N/A",
+            "url": "https://www.meesho.com/kk-trendy-letest-woman-skirt/p/6mzsoc"
+        },
+        {
+            "name": "Magic Cotton Kurta Set",
+            "price": "\u20b9333",
+            "rating": "N/A",
+            "url": "https://www.meesho.com/magic-cotton-kurta-set/p/7stacy"
+        }
+    ]
+}
