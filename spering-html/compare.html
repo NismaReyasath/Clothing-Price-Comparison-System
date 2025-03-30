@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Myntra Products</title>
+  <title>Saashe Products</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -127,16 +127,16 @@
   <section class="product_section layout_padding">
     <div class="container">
       <div class="heading_container text-center">
-        <h2>Compare Prices - <span class="pink-text">Myntra vs Meesho</span></h2>
+        <h2>Compare Prices - <span class="pink-text">Saashe vs WardrobeByMeenu</span></h2>
       </div>
       <div class="row">
         <!-- Product Row -->
         <div class="col-md-6">
-          <h3 class="text-center">Myntra</h3>
+          <h3 class="text-center">Saashe</h3>
           <div class="product_box">
             <div class="img-box">
               <a href="https://www.saashe.com/skirt" target="_blank">
-                <img src="images/bfs_myntra.png" alt="Black Flared Skirt">
+                <img src="images/bfs_saashe.png" alt="Black Flared Skirt">
               </a>
             </div>
             <div class="detail-box">
@@ -147,11 +147,11 @@
         </div>
 
         <div class="col-md-6">
-          <h3 class="text-center">Meesho</h3>
+          <h3 class="text-center">WardrobeByMeenu</h3>
           <div class="product_box">
             <div class="img-box">
-              <a href="https://www.meesho.com/trendy-letest-woman-skirt/p/6nap9n" target="_blank">
-                <img src="images/bfs_meesho.png" alt="Black Flared Skirt">
+              <a href="https://www.wardrobebymeenu.com/trendy-letest-woman-skirt/p/6nap9n" target="_blank">
+                <img src="images/bfs_wardrobebymeenu.png" alt="Black Flared Skirt">
               </a>
             </div>
             <div class="detail-box">
@@ -167,8 +167,8 @@
         <div class="col-md-6">
           <div class="product_box">
             <div class="img-box">
-              <a href="https://www.myntra.com/jeans" target="_blank">
-                <img src="images/wlj_myntra.png" alt="Wide Leg Jeans">
+              <a href="https://www.saashe.com/jeans" target="_blank">
+                <img src="images/wlj_saashe.png" alt="Wide Leg Jeans">
               </a>
             </div>
             <div class="detail-box">
@@ -181,8 +181,8 @@
         <div class="col-md-6">
           <div class="product_box">
             <div class="img-box">
-              <a href="https://www.meesho.com/ice-blue-denim-wide-leg-denim-jeans/p/6fuaar" target="_blank">
-                <img src="images/wlj_meesho.png" alt="Wide Leg Jeans">
+              <a href="https://www.wardrobebymeenu.com/ice-blue-denim-wide-leg-denim-jeans/p/6fuaar" target="_blank">
+                <img src="images/wlj_wardrobebymeenu.png" alt="Wide Leg Jeans">
               </a>
             </div>
             <div class="detail-box">
@@ -198,8 +198,8 @@
         <div class="col-md-6">
           <div class="product_box">
             <div class="img-box">
-              <a href="https://www.myntra.com/kurta" target="_blank">
-                <img src="images/alk_myntra.png" alt="A line Kurta">
+              <a href="https://www.saashe.com/kurta" target="_blank">
+                <img src="images/alk_saashe.png" alt="A line Kurta">
               </a>
             </div>
             <div class="detail-box">
@@ -212,8 +212,8 @@
         <div class="col-md-6">
           <div class="product_box">
             <div class="img-box">
-              <a href="https://www.meesho.com/magic-cotton-kurta-set/p/7stelo" target="_blank">
-                <img src="images/alk_meesho.png" alt="A line Kurta">
+              <a href="https://www.wardrobebymeenu.com/magic-cotton-kurta-set/p/7stelo" target="_blank">
+                <img src="images/alk_wardobebymeenu.png" alt="A line Kurta">
               </a>
             </div>
             <div class="detail-box">
@@ -385,11 +385,11 @@
     fetch('combined_data.json')
     .then(response => response.json())
     .then(data => {
-        let myntraHTML = "";
-        let meeshoHTML = "";
+        let saasheHTML = "";
+        let wardrobebymeenuHTML = "";
 
-        data.myntra.forEach(product => {
-            myntraHTML += `
+        data.saashe.forEach(product => {
+            wardrobebymeenuHTML += `
                 <div class="product-box">
                     <a href="${product.url}" target="_blank">
                         <h4>${product.name}</h4>
@@ -400,8 +400,8 @@
             `;
         });
 
-        data.meesho.forEach(product => {
-            meeshoHTML += `
+        data.wardrobebymeenu.forEach(product => {
+            wardrobebymeenuHTML += `
                 <div class="product-box">
                     <a href="${product.url}" target="_blank">
                         <h4>${product.name}</h4>
@@ -411,8 +411,8 @@
             `;
         });
 
-        document.getElementById("myntra").innerHTML = myntraHTML;
-        document.getElementById("meesho").innerHTML = meeshoHTML;
+        document.getElementById("saashe").innerHTML = saasheHTML;
+        document.getElementById("wardrobebymeenu").innerHTML = wardrobebymeenuHTML;
     })
     .catch(error => console.log("Error loading data:", error));
 </script>
