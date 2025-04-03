@@ -1,16 +1,20 @@
 {
-    "myntra": [
+    "wbm": [
         {
-            "name": "Ribbed Tank Crop Top",
-            "price": "\u20b9239",
-            "rating": "4.2\n|\n895 Ratings",
-            "url": "https://www.myntra.com/tops/baesd/baesd-ribbed-tank-crop-top/24115434/buy"
+           name: "Black Star",
+            price: "1499.00", 
+            image: "https://www.wardrobebymeenu.com/cdn/shop/files/54_2fadfc9b-8586-44a7-bd62-24d7ad6ff3de.jpg?v=1737218287&width=533",
+            rating: "5.00 stars",
+            color: "Black",
+            material: "Georgette" 
         },
         {
-            "name": "Wide Leg Jeans",
-            "price": "\u20b9736",
-            "rating": "4.4\n|\n21 Ratings",
-            "url": "https://www.myntra.com/jeans/aadvi+fashion/aadvi-fashion-women-original-high-rise-stretchable-wide-leg-jeans/32481893/buy"
+            name: "Shadow",
+            price: "1499.00", 
+            image: "https://www.wardrobebymeenu.com/cdn/shop/files/6_6a28f6d7-635f-4730-ba41-e3645d9ba685.jpg?v=1737213150&width=533",
+            rating: "Rating not available",
+            color: "Black",
+            material: "Georgette" 
         },
         {
             "name": "Maxi Skirt",
